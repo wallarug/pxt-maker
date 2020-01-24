@@ -3,8 +3,8 @@
   "visual": {
     "image": "pkg://board.svg",
     "useCrocClips": false,
-    "width": 185.6999969482422,
-    "height": 161.3000030517578,
+    "width": 464.25,
+    "height": 403.25,
     "pinDist": 15,
     "pinBlocks": [
       {
@@ -25,14 +25,14 @@
         "x": 158.39925257812874,
         "y": 130.50000838369346,
         "labels": [
-          "GROVE1"
+          "A5"
         ]
       },
       {
         "x": 152.69932825934595,
         "y": 130.50000838369346,
         "labels": [
-          "GROVE0"
+          "A4"
         ]
       },
       {
@@ -81,7 +81,7 @@
         "x": 168.8991448206423,
         "y": 36.89999307336542,
         "labels": [
-          "A5"
+          "CS"
         ]
       },
       {
@@ -130,14 +130,14 @@
         "x": 168.8991448206423,
         "y": 86.90001162190904,
         "labels": [
-          "GPS_RX"
+          "RX"
         ]
       },
       {
         "x": 168.8991448206423,
         "y": 90.39999404699886,
         "labels": [
-          "GPS_TX"
+          "TX"
         ]
       },
       {
@@ -151,14 +151,14 @@
         "x": 168.8991448206423,
         "y": 79.69998970429234,
         "labels": [
-          "GPS_SDA"
+          "D10"
         ]
       },
       {
         "x": 168.8991448206423,
         "y": 83.30000066310069,
         "labels": [
-          "GPS_SCL"
+          "D11"
         ]
       },
       {
@@ -445,14 +445,14 @@
         "x": 42.900551978651215,
         "y": 29.799999689467256,
         "labels": [
-          "PI_RX"
+          "D9"
         ]
       },
       {
         "x": 50.100477939662895,
         "y": 29.799999689467256,
         "labels": [
-          "PI_TX"
+          "D8"
         ]
       },
       {
@@ -580,11 +580,9 @@
     "GND_I2C": "GND_I2C",
     "SDA": "GPS_SDA",
     "SCL": "GPS_SCL",
-    "GPS_RX": "GPS_RX",
+    "GPS_RX": "RX",
     "GPS": "5V_GPS",
-    "RX": "PI_RX",
-    "GPS_TX": "GPS_TX",
-    "TX": "PI_TX",
+    "GPS_TX": "TX",
     "GND_GPS": "GND_GPS",
     "GPS_SDA": "GPS_SDA",
     "GPS_SCL": "GPS_SCL",
@@ -642,9 +640,8 @@
     "NEOPIXEL": "NEOPIXEL",
     "GND_NEO": "GND_NEO",
     "NEO": "5V_NEO",
-    "PI_RX": "PI_RX",
-    "PI": "PI_TX",
-    "PI_TX": "PI_TX",
+    "PI_RX": "D9",
+    "PI_TX": "D8",
     "GND_PISERIAL": "GND_PISERIAL",
     "PISERIAL": "GND_PISERIAL",
     "5V_NEO": "5V_NEO",
@@ -676,7 +673,7 @@
     "RCC2": "A1",
     "RCC3": "A2",
     "RCC4": "A3",
-    "CS":"A5"
+    "CS":"CS"
   },
   "groundPins": [
     "GND_LIPO",
